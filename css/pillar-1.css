@@ -10290,6 +10290,12 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   max-width: 80%;
 }
 
+@media screen and (max-width: 1000px) {
+  .resume-wrapper-inner {
+    max-width: 98%;
+  }
+}
+
 .resume-header {
   background: #434E5E;
   color: rgba(255, 255, 255, 0.9);
