@@ -6,17 +6,18 @@
 
     <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Xgit-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive Resume Template">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Google Font -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="css/css.css" rel="stylesheet">
 
     <!-- FontAwesome JS-->
-    <script defer src="js/all.min.js"></script>
+    <!--script defer src="js/all.min.js"></script-->
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="css/pillar-1.css">
@@ -43,15 +44,16 @@
                                 <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">LUIS SANTOS</h1>
                                 <div class="title mb-3">Mobile Developer</div>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>ing.luisantos@gmail.com</a></li>
-                                    <li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>(+52) 811-487-5995</a></li>
+                                    <li class="mb-2"><a class="text-link" href="#"><i class="fa fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>ing.luisantos@gmail.com</a></li>
+                                    <li><a class="text-link" href="#"><i class="fa fa-mobile fa-fw me-2" data-fa-transform="grow-6"></i>(+52) 811-487-5995</a></li>
                                 </ul>
                             </div>
                             <!--//primary-info-->
                             <div class="secondary-info col-auto mt-2">
                                 <ul class="resume-social list-unstyled">
                                     <!--li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/luis-eugenio-santos-gonzalez-9621a42b/" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/luis-eugenio-santos-gonzalez-9621a42b/</a></li-->
-                                    <li class="mb-3"><a class="text-link" href="https://github.com/luisantos1986" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/luisantos1986</a></li>
+                                    <li class="mb-3"><a class="text-link" href="https://github.com/luisantos1986" target="_blank"><span class="fa-container text-center me-2"><i class="fa fa-github-alt fa-fw"></i></span>github.com/luisantos1986</a></li>
+                                    <li class="mb-3"><a class="text-link" id="pdfDownloader"><span class="fa-container text-center me-2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span>DOWNLOAD PDF</a></li>
                                 </ul>
                             </div>
                             <!--//secondary-info-->
@@ -364,7 +366,7 @@
                             <div class="resume-section-content">
                                 <ul class="list-unstyled resume-awards-list">
                                     <li class="mb-2 ps-4 position-relative">
-                                        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+                                        <i class="resume-award-icon fa fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
                                         <div class="resume-award-name">React Native</div>
                                         <div class="resume-award-desc">Udemy The Complete React Native + Hooks Course.</div>
                                     </li>
@@ -404,7 +406,9 @@
 
         </div>
     </article>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
