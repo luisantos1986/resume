@@ -1,0 +1,203 @@
+{
+    "content": {
+      "careerSummary": "I have extensive experience working on diverse teams from around the world, primarily communicating in English through daily SCRUM meetings. Throughout my iOS development journey, I have contributed to multiple projects, handling various tasks such as data retrieval from servers, managing asynchronous tasks, and utilizing data storage tools like REALM and SQLITE. I am proficient in creating UI elements using xib files, storyboards, programmatically designing views, and utilizing SwiftUI. Additionally, I have successfully integrated and communicated with external devices via Bluetooth, particularly in the Point of Sale (POS) domain. Another notable aspect of my work involves developing internal libraries on Cocoapods, which have been deployed across multiple apps for prominent companies.",
+      "jobs": [
+        {
+          "title": "CMCO",
+          "position": "Android - iOS - Native Developer and Electrical - Electronical Engeneer",
+          "time": "2024/Jan - 2024/Jun",
+          "content": "At CMCO, my primary focus was on developing solutions for motor drivers, which traditionally used keypad controllers connected via Ethernet cables. The goal of the project was to replace these keypad controllers with a Wireless Operator Device (WOP), which created a Wi-Fi network for communication. This allowed the device to communicate through sockets and establish a TCP/IP connection from the WOP to mobile devices, enabling real-time data sharing about the machine's status. The WOP was responsible for sending and transferring raw data (bits and bytes), while the encoding and decoding of this information were handled by the mobile applications. By replacing the physical keypads, we re-created the keypad interface within the mobile application, enhancing the user experience by providing more data in real-time, faster fault detection, and the ability to transfer information over the web, for more information  about the product you can go to https://www.cmco.com/en-us/products/power-and-motion-technology/automation-diagnostics/intelli-connect/intelli-connect-mobile/",
+          "Achievements": [
+            "Successfully replaced traditional keypad controllers with a Wireless Operator Device, improving flexibility and user experience.",
+            "Developed a mobile application that could decode and present real-time data from motor drivers, enhancing operational efficiency.",
+            "Implemented a virtual keypad interface within the mobile app, providing users with an improved and intuitive control mechanism.",
+            "Enhanced fault detection and data visualization, enabling users to quickly identify and resolve issues.",
+            "Facilitated data transfer over the web, allowing for remote monitoring and control of motor drivers."
+          ],
+          "Tasks": [
+            "Designed and developed native Android and iOS applications to communicate with motor drivers via TCP/IP connections.",
+            "Implemented socket communication protocols to enable real-time data transfer between the Wireless Operator Device and mobile applications.",
+            "Developed encoding and decoding mechanisms within the mobile apps to translate raw data from the WOP into readable information.",
+            "Created a virtual keypad interface within the mobile applications, replicating the functionality of physical keypads with additional enhancements.",
+            "Conducted extensive testing and debugging to ensure reliable and efficient communication between the WOP and mobile devices.",
+            "Collaborated with embedded swoftware engineers to integrate the Wireless Operator Device seamlessly with existing motor driver systems.",
+            "Provided documentation and user guides to assist end-users in utilizing the new wireless control system effectively.",
+            "Connect Series 4 and Series 5 Drivers to motors for debugging and testing"
+          ],
+          "technologies": [
+            "Azure DevOps",
+            "IMPULSE G+ Series 4",
+            "IMPULSE G+ Series 5",
+            "Kotlin",
+            "Java",
+            "Room DB",
+            "Android Studio (IDE)",
+            "Gradle",
+            "Git",
+            "Jetpack Compose",
+            "XML",
+            "Swift",
+            "SwiftUI",
+            "Xcode",
+            "Github",
+            "CocoaPods",
+            "SPM",
+            "XCTestCase",
+            "XCUITestCase",
+            "MVVM Architecture"
+          ]
+        },
+        {
+          "title": "Divelement",
+          "position": "Java - Web - Server Developer",
+          "time": "2023/May - 2023/Dec",
+          "content": "During my tenure as a Java - Web Developer at Divelement, I was responsible for creating intentionally vulnerable websites to test a tool designed for vulnerability detection. The project was built on Apache for both Windows and Linux environments. We developed the pages as JSP pages to simulate various vulnerabilities, including SQL Injection, Log4Shell, Heartbleed, Web Cache Deception, EternalBlue amongs others. We adhered to documentation from CWE to identify and recreate the most common security issues. This work was crucial for ensuring the effectiveness of the detection tool in identifying and mitigating real-world threats. In order to connect both server an ngnix proxy was developed so we can communicate to each server since both contained different pages. In order to make the project more portable and re-usable we created a Docker file for compatibility  and portability.",
+          "Achievements": [
+            "Developed multiple vulnerable web pages to simulate real-world security threats.",
+            "Successfully recreated various critical vulnerabilities such as Log4Shell, Heartbleed, and Web Cache Deception.",
+            "Contributed to the enhancement of a vulnerability detection tool by providing a comprehensive testing environment."
+          ],
+          "Tasks": [
+            "Designed and implemented JSP pages with specific vulnerabilities for testing purposes.",
+            "Configured and maintained Apache servers on both Windows and Linux for hosting vulnerable web pages.",
+            "Configured and maintained ngnix servers to route the server in order to recreate some of the vulnerabilities, and in order to connect both (Windows and Linux) servers",
+            "Created a docker file with the proper filesystem and document system for portability",
+            "Followed CWE documentation to accurately replicate common security issues.",
+            "Collaborated with the security team to ensure the testing tool accurately detected and mitigated vulnerabilities.",
+            "Conducted thorough testing and validation of the vulnerability detection tool using the developed web pages."
+          ],
+          "technologies": [
+            "Gitlab",
+            "Charles Proxy",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "JAVA",
+            "JSP",
+            "Apache",
+            "ngnix",
+            "Docker"
+          ]
+        },
+        {
+          "title": "GAP Inc.",
+          "position": "iOS Mobile Developer - node.js backend Developer",
+          "time": "2022/January - 2023/May",
+          "content": "I was a part of a large team of dedicated developers at GAP, where effective teamwork was crucial to success. In addition to my development responsibilities, I actively participated in reviewing and approving pull requests from my colleagues on GitHub. Throughout this experience, I gained expertise in utilizing async/await promises on iOS (since version 13), creating localized strings and assets using SwiftGen, and developing a deeper understanding of enums and generics and using MVVM Architecture throughout the application. I also contributed to the creation of SPM libraries, which involved adding new code to the platform and refactoring existing code to enhance the application's efficiency and facilitate future development. As part of my role as an iOS developer, I was responsible for writing and executing XCTestCases and XCUITestCases to ensure the quality and stability of our app. Additionally, I took on the responsibility of a Node.js developer, where I developed tools that simplified our daily tasks, such as a bot/token generator, which significantly aided the entire developer community in testing required APIs. For personal purposes, I created a local server with mocked data that greatly assisted me during my development process. Looking ahead, I aspire to undertake similar endeavors on a larger scale, creating services for the entire team to benefit from.",
+          "Achievements": [
+            "Developed a Node.js bot to streamline token requests for testing purposes",
+            "resulting in improved efficiency and productivity.",
+            "Created personal local services as backups during server downtime",
+            "ensuring seamless operations and minimal disruptions.",
+            "Implemented the promisify async/await pattern to enhance code readability and maintainability.",
+            "Utilized SwiftGen for streamlined management of localizable strings",
+            "improving localization workflows.",
+            "Contributed to the development and implementation of SPM libraries",
+            "optimizing code reuse and enhancing the overall platform."
+          ],
+          "Tasks": [
+            "Designed and executed comprehensive test suites to achieve high code coverage and ensure the reliability and stability of my code.",
+            "Independently developed and maintained custom services to fulfill specific project requirements",
+            "showcasing initiative and self-reliance.",
+            "Effectively encoded and decoded data from services",
+            "ensuring accurate and secure communication between different components of the system.",
+            "Skillfully managed multiple asynchronous tasks within the library",
+            "prioritizing user experience and ensuring smooth functionality across various applications.",
+            "Leveraged advanced async/await code patterns",
+            "such as \"Task\" and @MainActor",
+            "to optimize performance and responsiveness within the codebase."
+          ],
+          "technologies": [
+            "Swift",
+            "Xcode",
+            "Github",
+            "CocoaPods",
+            "SPM",
+            "XCTestCase",
+            "XCUITestCase",
+            "node.js",
+            "npm",
+            "Express",
+            "Charles Proxy",
+            "MVVM Architecture"
+          ]
+        },
+        {
+          "title": "Charter Communications (Spectrum TV)",
+          "position": "iOS Developer",
+          "time": "2020/November - 2022/January",
+          "content": "My primary role at Charter Communications was to update an analytics library that collected various data points such as location, Wi-Fi data usage, cellular data, and more. The purpose of this library was to generate analytics for promotional purposes and track the company's growth in specific locations. To create these analytics, we implemented business rules and parameters provided by an API that we received in JSON format. The data was contextualized and communicated through observers, stored internally using REALM, and sent to the server. Once the server responded, the data was removed internally. In order to handle the data effectively, we ensured that it was Codable and Hashable. To achieve this, we created a base structure that served as a foundation for each event structure. Additionally, we utilized generics to create functions capable of handling multiple structures, providing flexibility and scalability. As part of the development process, I also wrote and executed XCTestCases to thoroughly test the analytics library and ensure its accuracy and reliability. Moreover, we integrated CRASHLYTICS from FIREBASE to monitor and analyze any crashes generated by the libraries. Furthermore, our team held daily morning SCRUM meetings to discuss client requirements, create tickets, and accurately estimate the points for each story.",
+          "Achievements": [
+            "Successfully reduced the occurrence of crashes caused by the library, resulting in enhanced stability and improved user experience.",
+            "Efficiently migrated the data storage method from document-based to a REALM database, improving data management and accessibility."
+          ],
+          "Tasks": [
+            "Developed comprehensive test cases for automation testing, ensuring robust and reliable functionality of the library.",
+            "Implemented data retrieval from the device, collecting relevant information for analysis and storage.",
+            "Processed the received data into a Codable structure and converted it to the appropriate format for storing in the database.",
+            "Effectively managed multiple asynchronous tasks within the library to ensure optimal performance and prevent any negative impact on user experience across various applications."
+          ],
+          "technologies": [
+            "Swift",
+            "Xcode",
+            "Gitlab",
+            "REALM",
+            "CocoaPods",
+            "XCTestCase"
+          ]
+        },
+        {
+          "title": "Warriors + Chase Center",
+          "position": "iOS Mobile Developer",
+          "time": "2020/April - 2020/August",
+          "content": "In my role at Chase Warriors, I had the opportunity to participate in the redesign of the app for the Golden State Warriors. This involved utilizing InVision and meticulously recreating pixel-perfect designs across multiple devices using the PRICER and MVVM architectures. The app featured a dynamic social media layout, requiring careful handling of each element, which was managed separately using individual xib files. To ensure the app's reliability and stability, I wrote and executed XCTestCases and XCUITestCases to thoroughly test various functionalities and ensure seamless user experience. The app also required consuming APIs to populate the screens with real-time data from the servers. To ensure effective collaboration and project management, we adopted a SCRUM-based system. This involved daily SCRUM meetings, where we discussed progress, challenges, and the overall project roadmap. This iterative approach allowed us to adapt to evolving requirements and maintain transparency within the team. Additionally, I actively engaged in code reviewing processes, providing valuable feedback and ensuring adherence to coding standards and best practices. Collaborating with my colleagues, we fostered a culture of continuous improvement, where we shared knowledge and refined our technical skills through peer learning. Working closely with designers, product owners, and fellow developers, I gained valuable experience in cross-functional teamwork. We collaborated on various aspects, such as feature implementation, bug fixing, and user experience enhancements. This collaboration not only enhanced the overall quality of the app but also fostered a sense of shared ownership and collective success within the team.",
+          "Achievements": [
+            "You can look at the app on the App Store Warriors + Chase Center"
+          ],
+          "Tasks": [
+            "Created comprehensive test cases for automation testing, ensuring the reliability and robustness of the application.",
+            "Took responsibility for the redesign of the application, incorporating new functionalities and improving the overall user experience.",
+            "Played a key role in implementing the PRICER & MVVM architecture, ensuring scalability, maintainability, and efficient development.",
+            "Successfully communicated with Web Services hosted on the Google Cloud Platform, facilitating seamless data exchange and integration.",
+            "Collaborated with various third-party integrations, including TicketMaster, ChasePay, MapsPeople, and more, effectively incorporating their functionalities into the application."
+          ],
+          "technologies": [
+            "Swift", "Xcode", "InVision", "Firebase", "Lottie Files", "MVVM Architecture", "XCTestCase", "XCUITestCase"
+          ]
+        },
+        {
+          "title": "Xcaret POS",
+          "position": "iOS Mobile Developer",
+          "time": "2019/April - 2020/April",
+          "content": "I had the opportunity to develop a Point of Sale (POS) system from scratch for Xcaret park. The goal was to create an intuitive and efficient app that allowed users to sell items and process payments directly within the app. To ensure the highest level of security and performance, I incorporated industry-standard practices and wrote extensive XCTestCases and XCUITestCases to thoroughly test the app's functionality. The app was seamlessly integrated with a credit card reader, establishing a Bluetooth connection to the device using BLE (Bluetooth Low Energy) applications, enabling secure and seamless payment processing. One of the unique aspects of this project was the diverse range of products available for sale. To ensure accurate and up-to-date product information, the app was integrated with TIBCO, a cloud API manager that accelerated the realization of business value from their API models. Upon connection, the app would download all the necessary information related to the available products, enabling smooth transactions. To address scenarios where connectivity was limited, the app was designed with Core Data, allowing for secure storage of transaction data locally on the device. This approach ensured that even when there was no communication with the servers, transaction information was preserved. Once the data was successfully sent to the servers, it was promptly removed from the device, following strict security measures to prevent data loss or unauthorized access. This project required a strong emphasis on data security, efficient payment processing, and seamless integration with external devices. Through effective planning and development, the XCaret Pos app provided a reliable and user-friendly solution for sales transactions within the Xcaret park.",
+          "Achievements": [
+            "Successfully developed a secure and efficient POS system from scratch.",
+            "Seamlessly integrated the app with a Bluetooth credit card reader using BLE applications.",
+            "Implemented extensive test cases to ensure app reliability and functionality.",
+            "Enhanced data security by integrating Core Data for local storage and TIBCO for up-to-date product information."
+          ],
+          "Tasks": [
+            "Developed the XCaret Pos app from scratch, encompassing all stages of the development lifecycle, from initial design to implementation.",
+            "Successfully communicated with Tibco servers to establish a seamless connection between the app and the backend infrastructure.",
+            "Actively participated in implementing the architecture of the app, ensuring scalability, performance, and maintainability.",
+            "Implemented Core Data as a robust storage solution, effectively managing and persisting transaction and product data.",
+            "Created a feature to generate vouchers and tickets for sales transactions and exported them in PDF format, providing a convenient and professional way to share transaction details with customers.",
+            "Designed and implemented a user-friendly layout that allowed users to digitally sign on the device for credit card purposes, enhancing security and convenience during payment processing.",
+            "Collaborated with third-party integrations to seamlessly integrate and interact with the Bluetooth (or also called BLE Bluetooth Low Energy applications) credit card reader, ensuring smooth and reliable payment transactions with the Qpos model of Dspread."
+          ],
+          "technologies": [
+            "Swift",
+            "Xcode",
+            "Tibco",
+            "Core Data",
+            "Gitlab",
+            "Postman",
+            "Core Bluetooth",
+            "BLE",
+            "XCTestCase",
+            "XCUITestCase"
+          ]
+        }
+      ]
+    }
+  }
